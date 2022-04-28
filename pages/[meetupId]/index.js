@@ -37,7 +37,7 @@ export async function getStaticPaths() {
     })),
     // fallback tell nextjs if all the possible paths are in the array
     // false means that all the paths are in the array
-    fallback: false,
+    fallback: 'blocking',
   };
 }
 

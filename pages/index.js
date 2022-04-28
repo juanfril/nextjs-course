@@ -80,7 +80,7 @@ export async function getStaticProps() {
       })),
     },
     // that's request data even 10 seconds after the page is loaded
-    revalidate: 10,
+    revalidate: 1,
   };
 }
 
